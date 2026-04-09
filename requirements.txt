@@ -1,6 +1,6 @@
 streamlit
-pandas
 numpy==1.26.4
+pandas
 opencv-python-headless==4.9.0.80
 pillow
 easyocr
