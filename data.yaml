@@ -1,0 +1,37 @@
+train: DataSet/images/train
+val: DataSet/images/val
+
+nc: 30
+
+names:
+  - "ANLÄGGNINGDEL"
+  - "AVDELNING"
+  - "BESTÄLLARE"
+  - "BET"
+  - "BET_REVIDERING"
+  - "BLAD"
+  - "Beskrivning_1"
+  - "Beskrivning_2"
+  - "Beskrivning_3"
+  - "Beskrivning_4"
+  - "DATUM"
+  - "DELOMRÅDE/BANDEL"
+  - "FORMAT"
+  - "FÖRVALTNINGSNUMMER"
+  - "GODKÄND AV"
+  - "GRANSKNINGSSTATUS/SYFTE"
+  - "HANDLINGSTYP"
+  - "KOMMUN"
+  - "KONSTRUKTIONSNUMMER"
+  - "LEVERANS/ÄNDRINGS-PM"
+  - "LEVERANTÖR"
+  - "NÄSTA BLAD"
+  - "OBJEKT"
+  - "OBJEKTNUMMER/KM"
+  - "RITNINGSNUMMER"
+  - "RITNINGSTYP"
+  - "SKALA"
+  - "SKAPAD AV"
+  - "TEKNIKOMRÅDE"
+  - "UPPDRAGSNUMMER"
+  
