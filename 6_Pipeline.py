@@ -1,10 +1,11 @@
 # 8_Pipeline.py
+import os
 import sys
 import subprocess
 from pathlib import Path
 from datetime import datetime
 
-PROJECT_DIR = Path(r"C:\Users\admin\Checkdat_Stampel_AI")
+PROJECT_DIR = Path(__file__).resolve().parent
 
 STEP1_SCRIPT = PROJECT_DIR / "1_Step_load_Crop.py"
 
@@ -17,7 +18,7 @@ SCRIPTS = [
 
 LOG_FILE = PROJECT_DIR / "pipeline_log.txt"
 STEP_LOG_DIR = PROJECT_DIR / "logs"
-STEP_LOG_DIR.mkdir(exist_ok=True)
+STEP_LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def log(msg: str):
